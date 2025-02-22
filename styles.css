@@ -1,0 +1,68 @@
+/* Apply the medium-dark theme */
+body {
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the container and set its size */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Style for the quantity span */
+#quantity {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Style for the input */
+#customQuantity {
+    font-size: 1.5em;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 200px;
+    background-color: #444;
+    color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Style for the buttons */
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Enlarge the buttons */
+button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #555;
+    color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Normalizing width of #cycler button */
+#cycler {
+    min-width: 80px; /* Adjust as needed for 4 characters */
+    text-align: center;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #777;
+}
+
+/* Optional: Add some basic styling to the label */
+label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}

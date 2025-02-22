@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cycler</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <input type="text" name="qty" id="customQuantity">
-    <button id="cycler">Cycle</button>
+    <div class="container">
+        <span id="quantity"></span>
+        <label for="qty">Enter Custom Quantity:</label>
+        <input type="number" name="qty" id="customQuantity" placeholder="Enter a number" min="0">
+        <div class="buttons">
+            <button id="add" onclick="add()">Add</button>
+            <button id="cycler" onclick="cycle()">1</button>
+            <button id="remove" onclick="remove()">Remove</button>
+        </div>
+    </div>
+
     <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
