@@ -8,8 +8,15 @@
 </head>
 <body>
     <div class="container">
+        <div id="currency">
+            <span id="currency"></span>
+        </div>
+        <div id="products">
+            <span id="mines"></span>
+            <button onclick="buy(mines)">Buy Mines</button>            
+        </div>
         <span id="quantity"></span>
-        <label for="qty">Enter Custom Quantity:</label>
+        <label for="qty">Enter Custom Quantity to Add:</label>
         <input type="number" name="qty" id="customQuantity" placeholder="Enter a number" min="0">
         <div class="buttons">
             <button id="add" onclick="add()">Add</button>
